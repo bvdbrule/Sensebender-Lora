@@ -50,5 +50,11 @@ Source code example communicate with The Things Network.
 <td align="center">9</td>
 </tr></tbody></table>
 
-
+// LMIC Pin mapping
+const lmic_pinmap lmic_pins = {
+    .nss = 10,
+    .rxtx = LMIC_UNUSED_PIN,
+    .rst = LMIC_UNUSED_PIN,
+    .dio = {2, 9, LMIC_UNUSED_PIN},
+};
 
