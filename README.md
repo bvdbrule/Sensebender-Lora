@@ -1,5 +1,9 @@
 # Sensebender-Lora
 
+<picture>
+  <img src="https://raw.githubusercontent.com/bvdbrule/Sensebender-Lora/master/Sensebender%2BRFM95.jpg" alt="Flowers" style="width:auto;">
+</picture>
+
 MySensors Sensebender Micro is normaly equipped with a stackable Nordic NRF24L01 module, see more information https://www.openhardware.io/view/1/Sensebender-Micro
 
 
