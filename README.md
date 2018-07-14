@@ -9,8 +9,8 @@ MySensors Sensebender Micro is normaly equipped with a stackable Nordic NRF24L01
 
 Hereby some files for the Sensebender to replace the NRF24L01 for a RFM95W Lora module.
 
-A Fritzing file with a schema and PCB.
-Source code example communicate with The Things Network.
+A Fritzing file with a schema and PCB.<br>
+Source code example communicate with The Things Network. <br>
 
 
 <table>
@@ -62,4 +62,57 @@ const lmic_pinmap lmic_pins = {<br>
     .dio = {2, 9, LMIC_UNUSED_PIN},<br>
 };<br>
 <br>
+
+
+# TTN Payload function
+
+function Decoder(bytes, port) {<br>
+  var decoded = {};<br>
+<br>
+  decoded.port = port;<br>
+<br>
+  if (port == 20)<br>
+  {<br>
+    bat = ((bytes[0]*256)+bytes[1])/100;<br> 
+    decoded.battery = bat;<br>
+  }<br>
+  if (port == 21)<br>
+  {<br>
+    temp = ((bytes[0]*256)+bytes[1])/100;<br>  
+    decoded.temperature = temp;<br>
+  }<br>
+  if (port == 22)<br>
+  {<br>
+    humi = ((bytes[0]*256)+bytes[1])/100;<br>  
+    decoded.humidity = humi;<br>
+  }<br>
+  if (port == 23)<br>
+  {<br>
+    co = ((bytes[0]*256)+bytes[1]); <br> 
+    decoded.co = co;    <br>
+  }<br>
+  if (port == 24)<br>
+  {<br>
+    light = ((bytes[0]*256)+bytes[1]);<br>  
+    decoded.light = light;    <br>
+  }<br>
+  if (port == 25)<br>
+  {<br>
+    sw = ((bytes[0]*256)+bytes[1]);  <br>
+    decoded.switch = sw;    <br>
+  }  <br>
+  if (port == 26)<br>
+  {<br>
+    temp = ((bytes[0]*256)+bytes[1])/100;  <br>
+    decoded.temperature2 = temp;<br>
+  }<br>
+    if (port == 27)<br>
+  {<br>
+    temp = ((bytes[0]*256)+bytes[1])/100;  <br>
+    decoded.current = temp;<br>
+  }<br>
+<br>
+  return decoded;<br>
+}<br>
+
 
