@@ -49,12 +49,13 @@ Source code example communicate with The Things Network.
 <td align="center">DIO1</td>
 <td align="center">9</td>
 </tr></tbody></table>
-
-// LMIC Pin mapping
-const lmic_pinmap lmic_pins = {
-    .nss = 10,
-    .rxtx = LMIC_UNUSED_PIN,
-    .rst = LMIC_UNUSED_PIN,
-    .dio = {2, 9, LMIC_UNUSED_PIN},
-};
+<br>
+// LMIC Pin mapping<br>
+const lmic_pinmap lmic_pins = {<br>
+    .nss = 10,<br>
+    .rxtx = LMIC_UNUSED_PIN,<br>
+    .rst = LMIC_UNUSED_PIN,<br>
+    .dio = {2, 9, LMIC_UNUSED_PIN},<br>
+};<br>
+<br>
 
