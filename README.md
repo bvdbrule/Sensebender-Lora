@@ -1,7 +1,7 @@
 # Sensebender-Lora
 
 <picture>
-  <img src="https://raw.githubusercontent.com/bvdbrule/Sensebender-Lora/master/Sensebender%2BRFM95.jpg" alt="Flowers" style="width:auto;">
+  <img src="https://raw.githubusercontent.com/bvdbrule/Sensebender-Lora/master/Sensebender%2BRFM95.jpg" alt="Sensebender with Lora RFM95W" style="width:auto;">
 </picture>
 
 MySensors Sensebender Micro is normaly equipped with a stackable Nordic NRF24L01 module, see more information https://www.openhardware.io/view/1/Sensebender-Micro.
@@ -9,7 +9,7 @@ MySensors Sensebender Micro is normaly equipped with a stackable Nordic NRF24L01
 
 Hereby some files for the Sensebender to replace the NRF24L01 for a RFM95W Lora module.
 
-This project contains the following files:
+This project contains the following files:<br>
 -A Fritzing file with a schema and PCB.<br>
 -Source code example to communicate with The Things Network with a Low Power library,  sending every 10 minute a message.<br>
 
@@ -115,5 +115,10 @@ function Decoder(bytes, port) {<br>
 <br>
   return decoded;<br>
 }<br>
+
+
+<picture>
+  <img src="https://raw.githubusercontent.com/bvdbrule/Sensebender-Lora/master/TTN-payload.png" alt="TTN-Payload" style="width:auto;">
+</picture>
 
 
