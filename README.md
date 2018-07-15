@@ -117,8 +117,10 @@ function Decoder(bytes, port) {<br>
 <br>
   return decoded;<br>
 }<br>
+<br>
 
-
+Goto select <b>Data</b> from the top right menu, you should now see the messages come in, like picture below:<br>
+<br>
 <picture>
   <img src="https://raw.githubusercontent.com/bvdbrule/Sensebender-Lora/master/TTN-payload.png" alt="TTN-Payload" style="width:auto;">
 </picture>
