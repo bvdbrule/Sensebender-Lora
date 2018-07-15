@@ -125,4 +125,8 @@ Goto select <b>Data</b> from the top right menu, you should now see the messages
   <img src="https://raw.githubusercontent.com/bvdbrule/Sensebender-Lora/master/TTN-payload.png" alt="TTN-Payload" style="width:auto;">
 </picture>
 
+# Order PCB
+
+To order the PCB, upload the Fritzing file to www.aisler.net.<br>
+
 
