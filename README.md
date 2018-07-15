@@ -4,13 +4,13 @@
   <img src="https://raw.githubusercontent.com/bvdbrule/Sensebender-Lora/master/Sensebender%2BRFM95.jpg" alt="Flowers" style="width:auto;">
 </picture>
 
-MySensors Sensebender Micro is normaly equipped with a stackable Nordic NRF24L01 module, see more information https://www.openhardware.io/view/1/Sensebender-Micro
+MySensors Sensebender Micro is normaly equipped with a stackable Nordic NRF24L01 module, see more information https://www.openhardware.io/view/1/Sensebender-Micro.
 
 
 Hereby some files for the Sensebender to replace the NRF24L01 for a RFM95W Lora module.
 
 A Fritzing file with a schema and PCB.<br>
-Source code example communicate with The Things Network. <br>
+Source code example communicate with The Things Network.<br>
 
 
 <table>
