@@ -9,8 +9,9 @@ MySensors Sensebender Micro is normaly equipped with a stackable Nordic NRF24L01
 
 Hereby some files for the Sensebender to replace the NRF24L01 for a RFM95W Lora module.
 
-A Fritzing file with a schema and PCB.<br>
-Source code example communicate with The Things Network.<br>
+This project contains the following files:
+-A Fritzing file with a schema and PCB.<br>
+-Source code example to communicate with The Things Network with a Low Power library,  sending every 10 minute a message.<br>
 
 
 <table>
