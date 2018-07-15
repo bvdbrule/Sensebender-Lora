@@ -66,6 +66,8 @@ const lmic_pinmap lmic_pins = {<br>
 
 
 # TTN Payload function
+Copy paste the folowing javascript code into the payload function from your device.<br>
+<br>
 
 function Decoder(bytes, port) {<br>
   var decoded = {};<br>
